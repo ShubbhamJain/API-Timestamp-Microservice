@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #343434;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#description {
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}

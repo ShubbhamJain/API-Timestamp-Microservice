@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Timestamp Microservice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">API Project: Timestamp Microservice</h1>
+      <p id="description">
+        Timestamp Microservice API is made to take user input in date and time
+        format in the url and then display date and time in JSON.
+      </p>
+      <h3>Example Usage:</h3>
+      <ul id="examples">
+        <li>
+          <a href="api/timestamp/2015-12-25">url/api/timestamp/2015-12-25</a>
+        </li>
+        <li>
+          <a href="api/timestamp/1451001600000"
+            >url/api/timestamp/1451001600000</a
+          >
+        </li>
+      </ul>
+
+      <h3>Example Output:</h3>
+      <p>
+        <code
+          >{"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code
+        >
+      </p>
+    </div>
+  </body>
+</html>
